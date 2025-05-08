@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D shape controller</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="header">
+    <div class="instructions">
+      <h2>Principe du jeu</h2>
+      <p>
+        - Rapproche ta main pour zoomer (bleu)<br>
+        - Pince ou colle ton index et ton pouce pour dézoomer (vert)<br>
+        - Tourne ta main pour faire tourner la planète (rouge)
+      </p>
+    </div>
+    <div class="camera-container">
+      <video id="input-video" autoplay muted playsinline></video>
+      <canvas class="hand-canvas"></canvas>
+    </div>
+  </div>
+
+  <div id="planet-container"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.154.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
