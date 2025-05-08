@@ -14,6 +14,3 @@ Game website link: [Hand-Controlled 3D Globe](https://drichdev.github.io/Hand-Co
 - ✋ **Zoom In**: move your hand closer to the camera → globe scales up and turns **blue**.
 - 🤏 **Zoom Out**: pinch index and thumb together → globe scales down and turns **green**.
 - 🤚➡️ **Rotate Left/Right**: move your hand left or right → globe rotates and turns **red**.
-
-## Project Structure
-
